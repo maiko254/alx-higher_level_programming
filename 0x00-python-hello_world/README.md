@@ -36,3 +36,5 @@ The Python code will be saved in the environment variable `$PYCODE`
 ### Task 6
 * Complete this source code to print `Welcome to Holberton School!`
 
+### Task 7
+* 7-edges.py - Complete this source code
