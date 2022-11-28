@@ -41,3 +41,7 @@ The Python code will be saved in the environment variable `$PYCODE`
 
 ### Task 8
 * 8-concat_edges.py - Complete this source code to print `object-oriented programming with Python`, followed by a new line.
+
+### Task 9
+* 9-easter_egg.py - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+   * Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
