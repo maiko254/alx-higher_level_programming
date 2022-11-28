@@ -32,3 +32,7 @@ The Python code will be saved in the environment variable `$PYCODE`
       * followed by a new line
    * You are not allowed to use any loops or conditional statement
    * Your program should be maximum 5 lines long
+
+### Task 6
+* Complete this source code to print `Welcome to Holberton School!`
+
