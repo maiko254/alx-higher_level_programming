@@ -96,13 +96,13 @@
    * You are not allowed to import any module
 
 ### Task 11
-* Write a function that computes `a` to the power of `b` and return the value.
+* 11-pow.py - Write a function that computes `a` to the power of `b` and return the value.
    * Prototype: `def pow(a, b):`
    * Returns the value of `a ^ b`
    * You are not allowed to import any module
 
 ### Task 12
-* Write a function that prints the numbers from 1 to 100 separated by a space. 
+* 12-fizzbuzz.py - Write a function that prints the numbers from 1 to 100 separated by a space. 
    * For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`. 
    * For numbers which are multiples of both three and five print `FizzBuzz`.
    * Prototype: `def fizzbuzz():`
@@ -110,7 +110,7 @@
    * You are not allowed to import any module
 
 ### Task 14
-* Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
+* 100-print_tebahpla.py - Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
    * You can only use one `print` function with string format
    * You can only use one loop in your code
    * You are not allowed to store characters in a variable
