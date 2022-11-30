@@ -108,3 +108,10 @@
    * Prototype: `def fizzbuzz():`
    * Each element should be followed by a space
    * You are not allowed to import any module
+
+### Task 14
+* Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
+   * You can only use one `print` function with string format
+   * You can only use one loop in your code
+   * You are not allowed to store characters in a variable
+   * You are not allowed to import any module
