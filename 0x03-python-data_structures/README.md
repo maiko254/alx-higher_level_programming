@@ -94,3 +94,6 @@
    * If `idx`  is negative or out of range, nothing change (returns the same list)
    * You are not allowed to use `pop()`
    * You are not allowed to import any module
+
+### Task 12
+* 12-switch.py - Complete the source code in order to switch value of `a` and `b`
