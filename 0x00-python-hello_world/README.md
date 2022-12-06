@@ -45,3 +45,11 @@ The Python code will be saved in the environment variable `$PYCODE`
 ### Task 9
 * 9-easter_egg.py - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
    * Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
+
+### Task 10 - Technical interview preparation: 
+* Write a function in C that checks if a singly linked list has a cycle in it.
+   * Prototype: `int check_cycle(listint_t *list);`
+   * Return `0` if there is no cycle, `1` if there is a cycle
+* Requirements:
+   * Only use these functions are allowe: `write`, `printf`, `putchar`,`puts`,`malloc`, `free`
+
