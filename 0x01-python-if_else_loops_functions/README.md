@@ -109,6 +109,11 @@
    * Each element should be followed by a space
    * You are not allowed to import any module
 
+### Task 13 - Technical interview preparation: 
+* Write a function in C that inserts a number into a sorted singly linked list.
+   * Prototype `listint_t *insert_node(listint_t **head, int number);`
+   * Return: the address of the new node, or `NULL` if it failed
+
 ### Task 14
 * 100-print_tebahpla.py - Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
    * You can only use one `print` function with string format
