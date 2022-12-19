@@ -46,3 +46,8 @@
    * You have to use `try: / except: / finally:`
    * You have to use `"{}".format()` to print the result
    * You are not allowed to import any module
+
+### Task 4. Divide a list
+* Write a function that divides element by element 2 lists.
+   * Prototype: `def list_division(my_list_1, my_list_2, list_length):`
+   * `my_list_1` and `my_list_1` can contain any type (integer, string, etc.)
