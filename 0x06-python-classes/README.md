@@ -48,3 +48,6 @@
    * Public instance method: `def my_print(self):` that prints in stdout the square with the character `#`:
       * if `size` is equal to 0, print an empty line
    * You are not allowed to import any module
+
+### Task 6. Coordinates of a square
+* 6-square.py - Write a class `Square` that defines a square by: (based on `5-square.py`)
