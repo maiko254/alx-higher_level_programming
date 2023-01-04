@@ -21,4 +21,7 @@
 
 ### Task 2. Area and Perimeter
 * 2-rectangle.py - Write a class `Rectangle` that defines a rectangle by: (based on `1-rectangle.py`)
+
+### Task 3. String representation
+* 3-rectangle.py - Write a class `Rectangle` that defines a rectangle by: (based on `2-rectangle.py`)
  
