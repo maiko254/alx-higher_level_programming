@@ -5,7 +5,7 @@
    * You are not allowed to import any module
 
 ### Task 1. Real definition of a rectangle
-* Write a class `Rectangle` that defines a rectangle by: (based on `0-rectangle.py`)
+* 1-rectangle.py - Write a class `Rectangle` that defines a rectangle by: (based on `0-rectangle.py`)
    * Private instance attribute: `width`:
       * property `def width(self):` to retrieve it
       * property setter `def width(self, value):` to set it:
@@ -18,4 +18,7 @@
          * if `height` is less than `0`, raise a `ValueError` exception with the message `height must be >= 0`
    * Instantiation with optional `width` and `height`:`def __init__(self, width=0, height=0):`
    * You are not allowed to import any module
+
+### Task 2. Area and Perimeter
+* 2-rectangle.py - Write a class `Rectangle` that defines a rectangle by: (based on `1-rectangle.py`)
  
