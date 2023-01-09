@@ -26,3 +26,7 @@
 * 4-inherits_from.py - Write a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
    * Prototype: `def inherits_from(obj, a_class):`
    * You are not allowed to import any module
+
+### Task 5. Geometry module
+* 5-base_geometry.py - Write an empty class `BaseGeometry`.
+   * You are not allowed to import any module
