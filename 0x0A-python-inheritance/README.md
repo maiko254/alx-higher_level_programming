@@ -16,3 +16,8 @@
 * 2-is_same_class.py - Write a function that returns `True` if the object is exactly an instance of the specified class ; otherwise `False`
    * Prototype: `def is_same_class(obj, a_class):`
    * You are not allowed to import any module
+
+### Task 3. Same class or inherit from
+* 3-is_kind_of_class.py - Write a function that returns `True` if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise `False`.
+   * Prototype: `def is_kind_of_class(obj, a_class):`
+   * You are not allowed to import any module
