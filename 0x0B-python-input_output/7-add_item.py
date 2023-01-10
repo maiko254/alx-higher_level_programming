@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# 7-add_item.py
+# Michael O Bonyo
+"""Saves all  arguments to a Python list, and then save them to a file:"""
 import sys
 
 if __name__ == "__main__":
