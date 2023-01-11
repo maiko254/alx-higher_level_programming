@@ -85,4 +85,28 @@
       * Otherwise, all attributes must be retrieved
    * You are not allowed to import any module
 
+### Task 11. Student to disk and reload 
+* 11-student.py - Write a class `Student` that defines a student by:
+   * Public instance attributes:
+      * `first_name`
+      * `last_name`
+      * `age`
+   * Instantiation with `first_name`, `last_name` and `age`:`def __init__(self, first_name, last_name, age):`
+   * Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a `Student` instance (same as `8-class_to_json.py`)
+      * If `attrs` is a list of strings, only attribute names contained in this list must be retrieved. 
+      * Otherwise, all attributes must be retrieved
+   * Public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance:
+      * You can assume `json` will always be a dictionary
+      * A dictionary key will be the public attribute name
+      * A dictionary value will be the value of the public attribute
+   * You are not allowed to import any module
 
+### Task 12. Pascal's Triangle
+* ## Technical interview preparation:
+   * You are not allowed to google anything
+   * Whiteboard first
+
+* Create a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of `n`:
+   * Returns an empty list if `n <= 0`
+   * You can assume `n` will be always an integer
+   * You are not allowed to import any module
