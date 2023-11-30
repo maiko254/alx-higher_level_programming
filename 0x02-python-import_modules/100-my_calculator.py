@@ -5,7 +5,6 @@ from sys import argv
 from sys import exit
 
 if __name__ == "__main__":
-    print(argv)
     if len(argv[1:]) != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
