@@ -1,0 +1,53 @@
+# 0x06. Python - Classes and Objects
+
+### Task 0. My first square
+* 0-square.py - Write an empty class `Square` that defines a square:
+   * You are not allowed to import any module
+
+### Task 1. Square with size
+* 1-square.py - Write a class `Square` that defines a square by: (based on `0-square.py`)
+   * Private instance attribute: `size`
+   * Instantiation with `size` (no type/value verification)
+   * You are not allowed to import any module
+
+### Task 2. Size validation
+* 2-square.py - Write a class `Square` that defines a square by: (based on `1-square.py`)
+   * Private instance attribute: `size`
+   * Instantiation with optional `size`:`def __init__(self, size=0):`
+      * `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+      * If `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
+   * You are not allowed to import any module
+
+### Task 3. Area of a square
+* 3-square.py - Write a class `Square` that defines a square by: (based on `2-square.py`)
+   * Private instance attribute: `size`
+   * Instantiation with optional `size`:`def __init__(self, size=0):`
+      * `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+      * If `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
+   * Public instance method: `def area(self):` that returns the current square area
+   * You are not allowed to import any module
+
+### Task 4. Access and update private attribute
+* 4-square.py - Write a class `Square` that defines a square by: (based on `3-square.py`)
+   * Private instance attribute: `size`
+      * property `def size(self):` to retrieve it
+      * property setter `def size(self, value):` to set it:
+         * `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+   * Instantiation with optional `size`:`def __init__(self, size=0):`
+   * Public instance method: `def area(self):` that returns the current square area
+   * You are not allowed to import any module
+
+### Task 5. Printing a square
+* 5-square.py - Write a class `Square` that defines a square by: (based on `4-square.py`)
+   * Private instance attribute: `size`:
+      * property `def size(self):` to retrieve it
+      * property setter `def size(self, value):` to set it:
+         * `size` must be an integer, otherwise raise a `TypeError` exception with the message `size must be an integer`
+   * Instantiation with optional `size`:`def __init__(self, size=0):`
+   * Public instance method: `def area(self):` that returns the current square area
+   * Public instance method: `def my_print(self):` that prints in stdout the square with the character `#`:
+      * if `size` is equal to 0, print an empty line
+   * You are not allowed to import any module
+
+### Task 6. Coordinates of a square
+* 6-square.py - Write a class `Square` that defines a square by: (based on `5-square.py`)
