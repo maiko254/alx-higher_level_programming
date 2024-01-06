@@ -5,9 +5,10 @@
 
 
 class Rectangle:
+    """Creates a rectangle"""
+
     number_of_instances = 0
 
-    """Creates a rectangle"""
     def __init__(self, width=0, height=0):
         """Initializing width and height value
 
