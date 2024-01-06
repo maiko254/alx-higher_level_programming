@@ -57,7 +57,7 @@ class Rectangle:
         """Returns the printable representation of the Rectagle"""
 
         if self.__width == 0 or self.__height == 0:
-            return("")
+            return ("")
         else:
             r = []
             for i in range(self.__height):
