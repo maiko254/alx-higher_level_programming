@@ -67,5 +67,5 @@ class Rectangle:
             return ("".join(r))
 
     def __repr__(self):
-        """Returns the printable representation that can recreate object Rectangle"""
+        """Returns the printable representation that can recreate Rectangle"""
         return("Rectangle({:d}, {:d})".format(self.__width, self.__height))
