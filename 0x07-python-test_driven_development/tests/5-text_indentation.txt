@@ -1,0 +1,17 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("My name is: Mike")
+My name is:
+<BLANKLINE>
+Mike
+>>> text_indentation("My name is: Mike. Odhiambo? B")
+My name is:
+<BLANKLINE>
+Mike.
+<BLANKLINE>
+Odhiambo?
+<BLANKLINE>
+B
+>>> text_indentation(123)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
