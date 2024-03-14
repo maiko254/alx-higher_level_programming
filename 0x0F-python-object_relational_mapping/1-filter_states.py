@@ -13,7 +13,7 @@ if __name__ == '__main__':
     try:
         conn = MySQLdb.connect(host, user, passwd, db, port)
         cur = conn.cursor()
-        cur.execute("SELECT * FROM states WHERE name LIKE 'N%'")
+        cur.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
         rows = cur.fetchall()
     except MySQLdb.Error as e:
         print(f"MySQL Error {str(e):s}")
