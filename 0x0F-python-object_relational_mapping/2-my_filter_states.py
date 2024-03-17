@@ -22,7 +22,7 @@ if __name__ == "__main__":
         print(f"MySQL Error {str(e):s}")
 
     for row in rows:
-        print(f"{row}")
+        print(row)
 
     cur.close()
     conn.close()
