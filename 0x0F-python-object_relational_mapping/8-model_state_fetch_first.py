@@ -18,4 +18,4 @@ if __name__ == "__main__":
     if states:
         print(f"{states[0].id}: {states[0].name}")
     else:
-        print('Nothing\n')
+        print('Nothing')
