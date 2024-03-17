@@ -14,8 +14,9 @@ if __name__ == "__main__":
     try:
         conn = MySQLdb.connect(host, user, passwd, db, port)
         cur = conn.cursor()
-        query = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(name)
-        cur.execute(query)
+        q = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(
+                name)
+        cur.execute(q)
         rows = cur.fetchall()
     except MySQLdb.Error as e:
         print(f"MySQL Error {str(e):s}")
