@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
    script to search database table for records of name passed as argument
    that is safe from an sql injection attack
 """
@@ -17,7 +17,8 @@ if __name__ == "__main__":
     try:
         conn = MySQLdb.connect(host, user, passwd, db, port)
         cur = conn.cursor()
-        cur.execute("SELECT * FROM states WHERE name = %s ORDER BY id ASC", (name,))
+        cur.execute("SELECT * FROM states WHERE name = %s ORDER BY id ASC",
+                    (name,))
         rows = cur.fetchall()
     except MySQLdb.Error as e:
         print(f"MySQL Error {str(e):s}")
