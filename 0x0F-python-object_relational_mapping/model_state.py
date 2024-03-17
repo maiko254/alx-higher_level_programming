@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" Defining class State to be mapped to table states in database using sqlalchemy """
+"""
+   Defining class State to be mapped to table states in database
+   using sqlalchemy
+"""
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy import create_engine
